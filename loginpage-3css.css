@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Roboto+Serif:ital,opsz,wght@0,8..144,200;0,8..144,500;0,8..144,600;0,8..144,700;0,8..144,800;0,8..144,900;1,8..144,300;1,8..144,400;1,8..144,500;1,8..144,600;1,8..144,700;1,8..144,800;1,8..144,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box ;
+}
+
+.login{
+  margin-top: 100px;
+}
+.row{
+    background:white ;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.login img{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 320px;
+}
+
+.login h1{
+ font-family: 'Merriweather', serif;
+ font-weight:400;
+}
+
+.inpt{
+  height: 50px;
+  width: 70%;
+  border-radius: 60px;
+  border: none;
+  outline:none;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+.btn1{
+  height: 50px;
+  width: 50%;
+  border:none;
+  outline: none;
+  border-radius: 60px;
+  background: rgb(54, 72, 236);
+  font-weight: 500;
+  color: white;
+  transition: .3s;
+
+}
+.btn1:hover{
+  background: blue;
+  color:white;
+}
